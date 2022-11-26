@@ -1,0 +1,26 @@
+#container{
+ 
+    border: 3px solid red;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+#img1{
+    position: absolute;
+    left: 0px;
+    top: 170px;
+    
+}
+#img2{
+    position: absolute;
+    right: 0;
+    top: 170px;
+}
+#img3{
+    position: absolute;
+    right: 50%;
+    top: 0px;
+}
+#p1,#p2{
+    color: blue;
+}

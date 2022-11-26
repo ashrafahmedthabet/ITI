@@ -1,0 +1,66 @@
+*{margin:0;}
+h1{
+    text-align: center;
+    margin-top: 3px;
+    color:#eb946c;
+    text-transform: capitalize;
+}
+#container{
+    max-width: 550px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+    text-align: center;
+    justify-content:center; 
+     color:#eb946c;  
+}
+#container div input{
+    cursor: pointer;
+}
+#container div{
+    display: flex; 
+    flex-direction :column;
+     margin:5px 10px;
+}
+#container img{
+    margin: 15px auto;
+    cursor: pointer;
+    width: 130px;
+    height: 130px;
+}
+#message{
+    text-align: center;
+    display: flex; 
+    flex-direction :column;
+    margin:10px;
+}
+#message textarea {
+    resize: none;
+    margin-bottom: 0;
+}
+#message input{
+    margin-top: 0;
+}
+.border{
+    border: 1px solid red;
+}
+.card-message{
+    text-align: center;
+    color: aquamarine;
+}
+button,#card-container button{
+background-color: #eb946c;
+color: white;
+border: none;
+cursor: pointer;
+}
+#card-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#card-container button{
+  margin-top: 15px;  
+ padding: 10px 30px;
+}
